@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { disciplineService, DisciplineData } from '../../../services/discipline.service'; // Adjust path as needed, import DisciplineData
+import { disciplineService, DisciplineData } from '@/services/discipline.service'; // Adjust path as needed, import DisciplineData
 import CreateDisciplineModal from '../../../components/modals/CreateDisciplineModal'; // Adjust path as needed
 import DisciplineCard from './_components/DisciplineCard';
 import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';

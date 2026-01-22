@@ -24,11 +24,6 @@ export default function CreateProjectButton({ onProjectCreated }: CreateProjectB
           isOpen={isModalOpen} // ADDED: Pass isModalOpen state to the modal
           onClose={() => setIsModalOpen(false)}
           onProjectCreated={onProjectCreated} // Pass the callback
-          onSubmit={(projectData) => { // This onSubmit is no longer used for API call in modal
-            console.log('Project Data Submitted (via old onSubmit prop):', projectData);
-            // The actual submission is now handled internally by CreateProjectModal
-            setIsModalOpen(false); // Close modal after submission
-          }}
         />
       )}
     </>

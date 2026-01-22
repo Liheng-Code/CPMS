@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { groupFunctionService, GroupFunction } from '../../services/groupFunction.service';
+import { groupFunctionService, GroupFunction } from '@/services/groupFunction.service';
 
 const PRESET_COLORS = [
   '#FF6B6B', '#4ECDC4', '#45B7D1', '#FED766', '#2AB7CA', '#F0B37E', '#8A2BE2'

@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { GroupFunction } from '../../services/groupFunction.service';
+import { GroupFunction } from '@/services/groupFunction.service';
 
 interface GroupFunctionCardProps {
   groupFunction: GroupFunction;

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { designFunctionTemplateService, DesignFunctionTemplateData } from '../../../services/designFunctionTemplate.service';
+import { designFunctionTemplateService, DesignFunctionTemplateData } from '@/services/designFunctionTemplate.service';
 import CreateDesignFunctionTemplateModal from '../../../components/modals/CreateDesignFunctionTemplateModal';
 import DesignFunctionTemplateCard from './_components/DesignFunctionTemplateCard';
 import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { projectService } from '../../services/project.service'; // Import the new service
+import { projectService } from '@/services/project.service'; // Import the new service
 
 interface CreateProjectModalProps {
   isOpen: boolean;

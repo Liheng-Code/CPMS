@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { groupFunctionService, GroupFunction } from '../../../services/groupFunction.service';
+import { groupFunctionService, GroupFunction } from '@/services/groupFunction.service';
 import CreateGroupFunctionModal from '../../../components/modals/CreateGroupFunctionModal';
 import GroupFunctionCard from './_components/GroupFunctionCard';
 import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';

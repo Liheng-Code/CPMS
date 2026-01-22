@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useRouter } from 'next/navigation';
-import { taskService, TaskData } from '../../../services/task.service'; // Adjust path as needed, import TaskData
+import { taskService, TaskData } from '@/services/task.service'; // Adjust path as needed, import TaskData
 import CreateTaskModal from '../../../components/modals/CreateTaskModal'; // Adjust path as needed
 import TaskCard from './_components/TaskCard';
 import { DragDropContext, Droppable, Draggable, DropResult } from '@hello-pangea/dnd';

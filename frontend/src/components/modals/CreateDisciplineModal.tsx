@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { disciplineService, DisciplineData } from '../../services/discipline.service'; // Import DisciplineData
+import { disciplineService, DisciplineData } from '@/services/discipline.service'; // Import DisciplineData
 
 const PRESET_COLORS = [ // Re-using preset colors for consistency
   '#FF6B6B', '#4ECDC4', '#45B7D1', '#FED766', '#2AB7CA', '#F0B37E', '#8A2BE2'

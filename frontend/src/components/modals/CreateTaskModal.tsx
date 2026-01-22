@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { taskService, TaskData } from '../../services/task.service'; // Import TaskData
+import { taskService, TaskData } from '@/services/task.service'; // Import TaskData
 
 interface CreateTaskModalProps {
   isOpen: boolean;

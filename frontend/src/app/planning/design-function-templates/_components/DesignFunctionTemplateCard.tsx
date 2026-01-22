@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { DesignFunctionTemplateData, GroupFunction } from '../../services/designFunctionTemplate.service';
+import { DesignFunctionTemplateData, GroupFunction } from '@/services/designFunctionTemplate.service';
 
 interface DesignFunctionTemplateCardProps {
   template: DesignFunctionTemplateData;

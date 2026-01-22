@@ -5,7 +5,7 @@ import CreateProjectButton from './_components/CreateProjectButton';
 import EditProjectModal from '../../components/modals/EditProjectModal';
 import ViewProjectModal from '../../components/modals/ViewProjectModal';
 import ProjectCard from './_components/ProjectCard'; // Import new ProjectCard component
-import { projectService } from '../../services/project.service';
+import { projectService } from '@/services/project.service';
 
 interface Project {
   _id: string;

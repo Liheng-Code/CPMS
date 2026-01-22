@@ -10,6 +10,6 @@ export const defaultValues: ProjectFormData = {
   description: '',
   plannedStartDate: '',
   plannedEndDate: '',
-  estimatedBudget: 0,
+  estimatedBudget: '0',
   currency: 'USD', // Default currency
 };

@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
-import { projectService } from '../../services/project.service';
+import { projectService } from '@/services/project.service';
 
 interface Project {
   _id: string;
