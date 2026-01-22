@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@hello-pangea/dnd": "^18.0.1",
+    "react-color": "^2.19.3"
+  }
+}

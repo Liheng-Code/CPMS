@@ -1,0 +1,22 @@
+const Discipline = require('../models/discipline.model');
+
+exports.createDiscipline = async (disciplineData) => {
+  try {
+    const newDiscipline = new Discipline(disciplineData);
+    await newDiscipline.save();
+    return newDiscipline;
+  } catch (error) {
+    console.error('Error in discipline service (createDiscipline):', error);
+    throw new Error('Could not create discipline');
+  }
+};
+
+exports.getAllDisciplines = async () => {
+  try {
+    const disciplines = await Discipline.find({});
+    return disciplines;
+  } catch (error) {
+    console.error('Error in discipline service (getAllDisciplines):', error);
+    throw new Error('Could not retrieve disciplines');
+  }
+};
