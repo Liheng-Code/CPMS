@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://your-frontend-name.vercel.app'],
+  origin: ['http://localhost:3000', 'https://cpms-three.vercel.app'],
   credentials: true
 }));
 app.use(morgan('dev'));

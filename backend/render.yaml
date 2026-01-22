@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: cpms-backend
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGO_URI
+        value: mongodb+srv://cpms-db:cpms-db001@cpms.wyv23fm.mongodb.net/
+      - key: JWT_SECRET
+        value: cpms-jwt-secret-2024-super-secure-key

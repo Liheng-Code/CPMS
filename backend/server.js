@@ -2,7 +2,7 @@ const app = require('./src/app');
 const connectDB = require('./src/config/db'); // Import the database connection function
 
 // Load environment variables (if using a .env file)
-// require('dotenv').config(); // Uncomment if you set up dotenv
+require('dotenv').config(); // Uncomment if you set up dotenv
 
 const port = process.env.PORT || 3001;
 
